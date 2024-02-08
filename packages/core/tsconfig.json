@@ -1,0 +1,21 @@
+{
+  "include": [
+    "./.eslintrc.js",
+    "./jest.config.js",
+    "index.ts",
+    "./src/**/*",
+    "./__tests__/**/*"
+  ],
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "allowJs": true,
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+	"folders": [
+    {
+      "path": "."
+    },
+		{
+			"name": "@poc/core",
+			"path": "packages/core"
+		},
+		{
+			"name": "@poc/types",
+			"path": "packages/types"
+		}
+	],
+	"settings": {
+		"jest.disabledWorkspaceFolders": [
+			"eslint-config-js",
+			"eslint-config-ts",
+			"@poc/types"
+		],
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+	}
+}

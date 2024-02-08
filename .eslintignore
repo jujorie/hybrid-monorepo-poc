@@ -1,0 +1,5 @@
+# Ignore all Dist folders
+dist
+
+# Ignore config for Packages
+packages/**/.eslintrc.js

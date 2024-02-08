@@ -1,0 +1,21 @@
+{
+  "name": "@poc/eslint-config-js",
+  "version": "1.0.0",
+  "description": "JS Eslint Config",
+  "main": "index.js",
+  "devDependencies": {},
+  "peerDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "author": {
+    "name": "Juan Riera",
+    "email": "jujorie@hotmail.com"
+  },
+  "license": "MIT"
+}
